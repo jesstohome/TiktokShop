@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'Recharge_id'       => 'ID',
+    'Mer_id'            => '商户ID',
+    'Order_id'          => '订单号',
+    'Price'             => '充值金额',
+    'Recharge_type'     => '充值类型',
+    'Recharge_type 0'   => '银行卡',
+    'Recharge_type 1'   => '区块链',
+    'Currency_type'     => '货币类型',
+    'Real_name'         => '姓名',
+    'Bank_name'         => '银行名称',
+    'Bank_card'         => '银行卡号',
+    'Network'           => '区块链网络',
+    'Blockchain'        => '区块链地址',
+    'Paid'              => '支付状态',
+    'Paid 0'            => '待支付',
+    'Paid 1'            => '已支付',
+    'Pay_time'          => '支付时间',
+    'Admin_id'          => '管理员ID',
+    'Admin_msg'         => '处理说明',
+    'Createtime'        => '创建时间',
+    'Merchant.mer_id'   => '商户id',
+    'Merchant.mer_name' => '商户名称',
+    'Status'         => '状态',
+    'Status -1'      => '未通过',
+    'Status 0'       => '待审核',
+    'Status 1'       => '已通过',
+    'Admin.id'       => 'ID',
+    'Admin.username' => '管理员账号',
+    'Admin.nickname' => '管理员昵称'
+];

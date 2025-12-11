@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'Mer_id'           => '商户id',
+    'Type_id'          => '店铺类型 id',
+    'Mer_name'         => '商户名称',
+    'Real_name'        => '商户姓名',
+    'Mer_phone'        => '商户手机号',
+    'Mer_address'      => '商户地址',
+    'Mer_keyword'      => '商户关键字',
+    'Mer_avatar'       => '商户头像',
+    'Mark'             => '商户备注',
+    'Status'           => '商户状态',
+    'Status 0'         => '关闭',
+    'Set status to 0'  => '设为关闭',
+    'Status 1'         => '正常',
+    'Set status to 1'  => '设为正常',
+    'Mer_info'         => '店铺简介',
+    'Service_phone'    => '店铺电话',
+    'Mer_money'        => '商户余额',
+    'Mer_level'        => '商户等级',
+    'Follow_count'     => '关注数',
+    'Visit'            => '访问数',
+    'Grade'            => '商户星级',
+    'Credit'           => '商户信用分',
+    'Good_rate'        => '商户好评率(%)',
+    'Createtime'       => '创建时间',
+    'Updatetime'       => '更新时间',
+    'Type.mer_type_id' => '商户类型id',
+    'Type.type_name'   => '类型名称',
+    'Level.level_id'   => '商户等级id',
+    'Level.name'       => '商户等级'
+];

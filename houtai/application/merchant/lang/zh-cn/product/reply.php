@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Reply_id'                 => '评论ID',
+    'User_id'                  => '用户ID',
+    'Mer_id'                   => '商户 id',
+    'Order_product_id'         => '订单商品ID',
+    'Unique'                   => '商品 sku',
+    'Product_id'               => '商品id',
+    'Product_type'             => '0=普通商品',
+    'Product_score'            => '商品分数',
+    'Service_score'            => '服务分数',
+    'Postage_score'            => '物流分数',
+    'Rate'                     => '平均值',
+    'Comment'                  => '评论内容',
+    'Pics'                     => '评论图片',
+    'Createtime'               => '评论时间',
+    'Merchant_reply_content'   => '管理员回复内容',
+    'Merchant_reply_time'      => '管理员回复时间',
+    'Weigh'                    => '商家排序',
+    'Is_reply'                 => '0未回复1已回复',
+    'Is_virtual'               => '0不是虚拟评价1是虚拟评价',
+    'Nickname'                 => '用户名称',
+    'Avatar'                   => '用户头像',
+    'User.id'                  => 'ID',
+    'User.username'            => '用户名',
+    'Merchant.mer_id'          => '商户id',
+    'Merchant.mer_name'        => '商户名称',
+    'Product.order_product_id' => '订单产品 id',
+    'Product.product_id'       => '商品ID',
+    'Product.title'            => '商品名称'
+];

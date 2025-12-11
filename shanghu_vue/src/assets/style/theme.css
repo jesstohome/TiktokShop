@@ -1,0 +1,65 @@
+
+:root {
+    /*背景颜色*/
+    --theme-background-color-1: #F7F7F7; /*背景色*/
+    --theme-background-color-2: #ffffff;  /*纯白色*/
+    --theme-background-color-3: #f7f8fb;   /*浅灰色*/
+    --theme-background-color-4: #00000; /*黑色色*/
+    --theme-background-color-5: #1552f0;
+
+
+    /*字体颜色*/
+    --theme-text-color-1: #FFFFFF;
+    --theme-text-color-2: #7F7F7F;
+    --theme-text-color-3: #9b9b9b;
+    --theme-text-color-4: #2c2c2c;
+    --theme-text-color-5: #191919;
+}
+
+
+html[data-theme='dark'] {
+    /*背景颜色*/
+    --theme-background-color-1: #000000;
+    --theme-background-color-2: #2c2c2c;
+    --theme-background-color-3: #7F7F7F;
+    --theme-background-color-4: #2c2c2c;
+    --theme-background-color-5: #1552f0;
+
+    --van-tabbar-background:#0000;
+
+    /*字体颜色*/
+    --theme-text-color-1: #000000;
+    --theme-text-color-2: #161616;
+    --theme-text-color-3: #7F7F7F;
+    --theme-text-color-4: #2c2c2c;
+    --theme-text-color-5: #1552f0;
+}
+/*背景*/
+.back_0 {
+    background-color: var(--theme-background-color-1);
+    color:var(--theme-text-color-2);
+}
+.back_1 {
+    background-color: var(--theme-background-color-5);
+    color:var(--theme-text-color-1);
+}
+
+.back_2 {
+    background-color: var(--theme-background-color-3);
+    color:var(--theme-text-color-4);
+}
+
+.back_3 {
+    background-color: var(--theme-background-color-2);
+    color:var(--theme-text-color-4);
+}
+.back_4 {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.08);
+}
+.color-text-1 {
+    color: var(--theme-text-color-2);
+}
+.color-text-2 {
+    color: var(--theme-text-color-5);
+}
+

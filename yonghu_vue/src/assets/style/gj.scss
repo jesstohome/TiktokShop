@@ -1,0 +1,88 @@
+// /* 明亮模式 */
+// @media (prefers-color-scheme: light){
+//     body {
+//         background: white;
+//         color: black;
+//     }
+// }
+
+// /* 暗黑模式 - 可以选择不指定，或者和明亮模式保持一致 */
+// @media (prefers-color-scheme: dark){
+//     body {
+//         background: white;
+//         color: black;
+//     }
+// }
+
+// @media (prefers-color-scheme: no-preference){
+//     body {
+//         background: white;
+//         color: black;
+//     }
+// }
+
+//  解决safari底部被遮住问题
+@media screen and (max-width: 767px) {
+  _::-webkit-full-page-media,
+  _:future,
+  :root .safari_only {
+    padding-bottom: 90px;
+  }
+}
+
+.container {
+  font-size: 24px;
+  height: 100vh;
+  // padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  .forms {
+    .form-label {
+      padding-top: 16px;
+      padding-bottom: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.07px;
+      color: rgba(120, 130, 138, 1);
+    }
+    ::v-deep(.van-cell) {
+      padding: 0;
+    }
+    ::v-deep(.van-field__control) {
+      padding: 10px;
+      border-radius: 15px;
+      border: 1px solid #31452e;
+    }
+  }
+  .container-scroll {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    .forms {
+      .form-label {
+        padding-top: 16px;
+        padding-bottom: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.07px;
+        color: rgba(120, 130, 138, 1);
+      }
+      ::v-deep(.van-cell) {
+        padding: 0;
+      }
+      ::v-deep(.van-field__control) {
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #31452e;
+      }
+    }
+  }
+  .container-bottom {
+    padding: 0 24px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
