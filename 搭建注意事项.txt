@@ -1,0 +1,2 @@
+/application/merchant/controller/Newapi.php商城后台有一个域名要改客服域名
+客服后端文件，在me登录控制器中有几个域名要替换
